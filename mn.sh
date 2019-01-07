@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function prepare_system() {
 echo -e "Preparing the system to install ${GREEN}$COIN_NAME${NC} master node."
 apt-get update >/dev/null 2>&1
